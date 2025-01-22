@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Define the file path
-voter_file_path = r"C:\Demo\Python\Kalikadevi_Voter_Database.xlsx"
+voter_file_path = "C:\Demo\Python\Kalikadevi_Voter_Database.xlsx"
 
 def load_voter_data(file_path):
     if os.path.exists(file_path):
